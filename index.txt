@@ -1,0 +1,8 @@
+ou créez un nouveau référentiel sur la ligne de commande
+echo "# premier-pas-git" >> README.md 
+git init 
+git add README.md 
+git commit -m "premier commit" 
+git branch -M main 
+git remote add origine https://github.com/Sanogo-Aicha/premier-pas-git.git
+ git push -u origine main
